@@ -11,6 +11,7 @@ public class ReverseNumber {
 		System.out.println(sb.reverse());
 		StringBuffer sbf = sb.reverse();
 		String strr = sbf.toString();
+		System.out.println(strr);
 		
 	}
 

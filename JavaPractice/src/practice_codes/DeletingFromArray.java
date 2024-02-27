@@ -12,8 +12,9 @@ public class DeletingFromArray {
 			System.out.print(a[i]+" ");
 		}
 		System.out.println("enter element you want to delete- ");
-		Scanner sc = new Scanner(System.in);
-		loc=sc.nextInt();
+		try (Scanner sc = new Scanner(System.in)) {
+			loc=sc.nextInt();
+		}
 		for(int i=loc;i<a.length-1;i++) 
 		{
 		a[i]=a[i+1];

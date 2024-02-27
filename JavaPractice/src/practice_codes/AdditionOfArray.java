@@ -9,14 +9,14 @@ public class AdditionOfArray {
 		int a[] = new int[5] ;
 		
 		System.out.println("Enter Five Numbers: ");
-		Scanner sc = new Scanner(System.in);
-		for(int i=0; i<5; i++)
-		{
-			a[i]=sc.nextInt();
+		try (Scanner sc = new Scanner(System.in)) {
+			for(int i=0; i<5; i++)
+			{
+				a[i]=sc.nextInt();
+			}
+			System.out.println("Elements are stored successfully, Do you want to print addition of element Y/N");
+			reply= sc.next().toLowerCase().charAt(0);
 		}
-		System.out.println("Elements are stored successfully, Do you want to print addition of element Y/N");
-		reply= sc.next().toLowerCase().charAt(0);
-		
 		if (reply=='y')
 		{
 			for(int i=0; i<5; i++)

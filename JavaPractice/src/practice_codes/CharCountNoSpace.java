@@ -6,8 +6,9 @@ public class CharCountNoSpace {
 		int c=0;
 		String in;
 		System.out.println("Enter string-");
-		Scanner sc = new Scanner(System.in);
-		in = sc.nextLine();
+		try (Scanner sc = new Scanner(System.in)) {
+			in = sc.nextLine();
+		}
 		System.out.println("String count is "+in.length() );
 		for (int i=0;i<in.length();i++)
 		{
