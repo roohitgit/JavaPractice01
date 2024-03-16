@@ -67,5 +67,6 @@ public class CountVowelsInString {
 		System.out.println("i= "+i);
 		System.out.println("o= "+o);
 		System.out.println("u= "+u);
-}
+		}
+	
 }
