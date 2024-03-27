@@ -17,7 +17,7 @@ public class LearnArrayList {
 //			System.out.println(ll);
 //		}
 //		
-	
+		
 		while(itr.hasNext())
 		{
 			Object item = itr.next();	
@@ -25,6 +25,11 @@ public class LearnArrayList {
 		}
 		Collections.sort(al);
 		System.out.println(al);
+		System.out.println(System.getProperty("java.runtime.version"));
 	}
+	
+	
+	
+	
 
 }
