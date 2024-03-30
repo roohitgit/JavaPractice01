@@ -5,21 +5,24 @@ public class FloydsTrianglePrint {
 
 	public static void main(String[] args) {
 		
-		int n,c,d,num=1; //n is for how many rows, c is for row, d for each elements in a row and num is number which is increment
-		System.out.println("Enter number of rows");
-		Scanner sc = new Scanner(System.in);
-		n = sc.nextInt();
-		System.out.println("Floyds Triangle");
+	
+		//floyds triangle
 		
-		for(c=1; c<=n;c++)
+		System.out.println("Enter how many row you want: ");
+		Scanner sc = new Scanner(System.in);
+		int row = sc.nextInt();
+		int c, num=1;
+		System.out.println("Floyds Triangle: ");
+		for(int i=num; i<=row; i++)
 		{
-			for(d=1;d<=c;d++)
+			for(int j=1;j<=i;j++)
 			{
 				System.out.print(num+" ");
 				num++;
 			}
-			System.out.println(" ");
+			System.out.println();
 		}
+	
 		
 
 	}
