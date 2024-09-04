@@ -16,7 +16,7 @@ public class FiveDifferentWaysToIteratorHashMap {
 		IteratorMap(fruitMap);      //Using Iterator
 		entrySet(fruitMap);			//Using EntrySet()
 		streams(fruitMap);			//Using streams (java 8)
-		//foreachLoop(fruitMap);							//Using foreach method (java 8)
+		//foreachLoop(fruitMap);	//Using foreach method (java 8)
 		
 	}
 

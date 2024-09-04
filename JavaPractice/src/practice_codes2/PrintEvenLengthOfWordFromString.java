@@ -4,7 +4,7 @@ public class PrintEvenLengthOfWordFromString {
 
 	public static void main(String[] args) {
 		
-		String string = "Hello Rohi Badole what are you doingg";
+		String string = "Hello Rohit Badole what are you doingg";
 	
 		for(String str:string.split(" "))
 		{
